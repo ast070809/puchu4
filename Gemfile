@@ -8,11 +8,13 @@ gem "haml", "4.0.4"
 gem 'annotate', "2.6.0"
 gem 'acts_as_commentable_with_threading', :git => 'https://github.com/ast070809/acts_as_commentable_with_threading.git'
 gem "acts_as_votable", "0.8.0"
-
+gem "font-awesome-rails"
+gem "less-rails", "2.4.2"
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
+  gem "shoulda", "3.5.0"
 end
 
 group :production do
